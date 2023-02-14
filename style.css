@@ -21,6 +21,11 @@ body{
 	align-items: center;
 	justify-content: center;
 	background: #0b1522;
+		background: url(Original.png) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .heart{
 	height: 70px;
