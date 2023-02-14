@@ -12,6 +12,7 @@ body:before {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background: #0b1522;
 }
 body{
 	margin: 0;
@@ -22,8 +23,8 @@ body{
 	justify-content: center;
 }
 .heart{
-	height: 70px;
-	width: 70px;
+	height: 125px;
+	width: 125px;
 	background: #f20044;
 	position: relative;
 	transform: rotate(-45deg);
@@ -38,20 +39,20 @@ body{
 .heart:before{
 	content: '';
 	position: absolute;
-	height: 70px;
-	width: 70px;
+	height: 125px;
+	width: 125px;
 	background: #f20044;
 	top: -50%;
-	border-radius: 50px;
+	border-radius: 70px;
 	box-shadow: -10px -10px 90px #f20044;
 }
 .heart:after{
 	content: '';
 	position: absolute;
-	height: 70px;
-	width: 70px;
+	height: 125px;
+	width: 125px;
 	background: #f20044;
 	right: -50%;
-	border-radius: 50px;
+	border-radius: 70px;
 	box-shadow: 10px 10px 90px #f20044;
 }
